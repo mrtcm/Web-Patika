@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    justify-content: center;
+    display: grid;
+    align-items: center;
+}
+.main-style article {
+    margin-top: 50px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #9EB384;
+    width: 1000px;
+    height: auto;
+}
+
+.iframe-style {
+    margin: 50px 150px;
+}
+.main-style p {
+    color:#435334;
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px 150px;
+}
+.main-style h1 {
+    color:#435334;
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.head-style {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

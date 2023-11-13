@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.image-style {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar {
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    width: auto;
+    height: 70px;
+}
+.search-bar input {
+    width: 30%;
+    height: 18px;
+}
+.section-style {
+    width: 1200px;
+    height: 200px;
+}
+ button {
+    padding: 3px;
+}
+
+.link-style {
+    display: flex;
+}
+.link-style1,.link-style2,.link-style3 {
+    margin: 2px 1px 0 2px;
+    background-color: aquamarine;
+    width: 400px;
+    height: 90px;
+}
+.link-style ul {
+    list-style-type: none;
+}
+
