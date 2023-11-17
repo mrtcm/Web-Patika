@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/********************Navigation kısmı********************/
+.navigation-style{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 10px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-style li{
+    margin: 10px;
+    list-style: none;
+    float: left;
+}
+.list-style li a {
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+}
+.list-style li a:hover {
+    text-decoration: underline;
+}
+.img-style {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+}
+
+
+/********************************************************/
+
+/************************Arama çubugu kısmı**********************/
+.search-bar-style {
+    width: 585px;
+    height: 45px;
+    border-radius: 20px;
+    margin:20px auto;
+    padding: 0px;
+    text-align: center;
+    border: 1px solid gray ;
+}
+.search-bar-style:hover {
+    box-shadow: 0px 0px 5px gray;
+    
+}
+.search-bar input {
+    border: none;
+    padding: 0px;
+    width: 480px;
+    height: 45px;
+    outline: 0;
+}
+
+.search-logo i {
+    font-size: 15px;
+    margin: 0  15px;
+}
+
+.mic-style img {
+    width: 25px;
+    height: 25px;
+    margin: 0 15px;
+}
+.search-bar-position {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+/********************************************************/
+
+/*buton düzenlemeleri*/
+.button-style {
+    text-align: center;
+}
+
+.button-style button {
+    padding: 10px;
+    border: none;
+    background-color:#f8f9fa;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    border: 1px solid #f8f9fa;
+}
+.button-style button:hover {
+    border: 1px solid rgb(211, 211, 211);
+}
+
+/*************************/
+
+/*Footer Kısmı*/
+.footer-style {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: auto;
+}
+.footer-main {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    background-color:#f1f1f1 ;
+    width: 100%;
+    height: auto;
+}
+
+.footer-main a {
+    text-decoration: none;
+    color: #202124;
+    font-size: 14px;
+}
+.footer-main a:hover {
+    text-decoration: underline;
+    
+}
+.footer-main-tr {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #202124;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-main ul {
+    list-style: none;
+    display: flex;
+}
+.footer-main li {
+    margin: 10px;
+}
+.footer-main p {
+    margin: 5px;
+}
+.footer-main2 {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-p-style a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**************/
